@@ -1,0 +1,5 @@
+# Ignore large datasets
+data/Cleaned_crime_data.csv
+*.csv
+*.zip
+*.twbx
