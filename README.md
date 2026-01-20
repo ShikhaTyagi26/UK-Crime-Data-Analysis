@@ -1,16 +1,66 @@
 # UK-Crime-Data-Analysis
 Crime Hotspot Detection Using Geospatial Visualisation and Unsupervised Clustering
 <br>
-The increasing availability of open crime data and advances in geospatial analytics provide new
-opportunities for understanding the spatial dynamics of criminal activity. This study investigates
-the identification and interpretation of crime hotspots in the United Kingdom using unsupervised
-machine learning and geospatial visualisation techniques. Street-level crime and outcome data
-published by UK police forces were integrated and analysed using Python-based analytics and
-Tableau dashboards. Following extensive data cleaning and preprocessing, density-based
-clustering methods, specifically DBSCAN and HDBSCAN, were applied to detect spatial
-concentrations of crime. A representative random sample of 50,000 records was used to ensure
-computational feasibility. The findings show that crime is highly concentrated in specific microlocations, particularly within major urban centres, and that many hotspots persist over time.
-Analysis of crime type composition and investigative outcomes reveals substantial variation
-across hotspots. The study demonstrates that combining unsupervised clustering with interactive
-visual analytics provides a reproducible and applied framework for crime hotspot analysis and
-evidence-based decision-making
+UK Crime Hotspot Detection Using Geospatial Analytics & Unsupervised Clustering
+Overview
+
+This project applies Python-based clustering (DBSCAN & HDBSCAN) and Tableau visual analytics to identify crime hotspots in the United Kingdom using open police data.
+The analysis supports evidence-based policing and reveals spatial crime concentration, hotspot evolution over time, and outcome effectiveness.
+
+Project Structure
+notebooks/        → Python notebooks for data preparation & clustering  
+data/             → Sample dataset used for analysis  
+dashboards/       → Tableau dashboard 
+dissertation/     → Dissertation PDF (optional)  
+
+Main Techniques Used
+
+✔ Data Cleaning & Preprocessing (Pandas, NumPy)
+✔ Clustering: DBSCAN & HDBSCAN
+✔ Hotspot Trend Classification
+✔ Geospatial Mapping (Tableau)
+✔ Temporal Crime Analysis
+✔ Crime-Type Profiling
+✔ Outcome Effectiveness Analysis
+
+Tableau Dashboards
+ 1. UK Crime Hotspot Overview
+ 2. Hotspot Dynamics: Emerging / Stable / Disappearing
+ 3. High-Risk Area Profiling (LSOA-level)
+
+Dashboard images are included in the /dashboards folder.
+
+Full interactive workbook available here:
+🔗 Google Drive Link
+
+Large Files (Google Drive)
+
+Because of GitHub’s size limits, the following files are hosted externally:
+
+🔗 Cleaned_Crime_Dataset (3.67M rows)
+🔗 Tableau Workbook (.twbx)
+🔗 Clustering Outputs
+🔗 Full Raw Crime Data from UK Police
+
+Link to folder:
+https://drive.google.com/drive/
+...
+
+How to Run the Project
+
+Clone this repo
+
+Install the required Python libraries:
+
+pip install pandas numpy hdbscan scikit-learn matplotlib seaborn
+
+
+Open the notebooks in /notebooks
+
+Load Tableau dashboard file from Google Drive
+
+Author
+
+Shikha Tyagi
+MSc in Business Analytics
+Email: shikhat26@gmail.com
